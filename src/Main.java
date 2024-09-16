@@ -22,6 +22,7 @@ public class Main {
 		in.nextLine();//flush the buffer
 		String place = in.nextLine();
 		System.out.println("One day, "+name+" wrote "+num1+" Mad Libs in "+place+"!");
+		System.out.println("This is my new work!");
 
 	}
 
