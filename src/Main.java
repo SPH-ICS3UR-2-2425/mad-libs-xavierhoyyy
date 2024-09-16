@@ -21,8 +21,15 @@ public class Main {
 		System.out.println("Enter a place: ");
 		in.nextLine(); //flush the buffer
 		String place = in.nextLine();
-		System.out.println("One day, "+name+" Mad Libs in "+place+"!");
+		System.out.println("Enter a time: ");
+		in.nextLine(); //flush the buffer
+		String time = in.nextLine();
 		
+		
+		
+		
+		
+		System.out.println("One day, "+name+" Mad Libs in "+place+"!");
 	}
 
 }
