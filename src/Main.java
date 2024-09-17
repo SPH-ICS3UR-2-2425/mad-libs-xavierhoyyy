@@ -15,21 +15,21 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Welcome to Mad Libs!");
 		System.out.println("What's your name?");
-		String name = in.nextLine(); //flush the buffer
+		String name = in.nextLine();
 		System.out.println("Enter a Number: ");
 		int num1 = in.nextInt();
+		in.nextLine();
 		System.out.println("Enter a place: ");
-		in.nextLine(); //flush the buffer
-		String place = in.nextLine();
-		System.out.println("Enter a time: ");
-		in.nextLine(); //flush the buffer
+		String place = in.nextLine();  
+		System.out.println("Enter a date: ");
+		String date = in.nextLine();
+		System.out.println("Enter a time of day: ");
 		String time = in.nextLine();
 		
 		
 		
-		
-		
-		System.out.println("One day, "+name+" Mad Libs in "+place+"!");
+		//Story
+		System.out.println("One day, "+name+" Mad Libs in "+place+" at "+time+" on "+date+", "+name+" keeps mentioning that his favourite number is "+num1+"!");
 	}
 
 }
